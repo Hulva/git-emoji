@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="keywords" content="Git,Emoji,GitEmoji">
+        <meta name="description" content="Git Emoji Tool">
+        <title>Git Emoji</title>
+        <style>
+            body {
+                font-size: 16px;
+                font-family: -apple-system-font, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", sans-serif;
+            }
+        </style>
+        <style>
+            @media print {
+                #ghostery-tracker-tally {
+                    display: none !important
+                }
+            }
+        </style>
+    </head>
+
+<body>
+    <div>
+        <div id="toast"
+            style="position:fixed; display: none; border: 1px solid #9DD3FA; right: 10px; top: 10px; width: 100px; height: 26px; border-radius: 5px; background-color: #9DD3FA; color: #1F6FB5; text-align: center; font-size: 14px;">
+
+        </div>
+        <div style="margin: 10px; border-bottom: 1px solid #9DD3FA; padding-bottom: 10px;">
+            <div><span style="font-weight: 900; ">Git Emoji</span> - click &amp; copy </div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🎨" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🎨</div>
+            <div>Improving structure / format of the code.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="⚡️" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>⚡️</div>
+            <div>Improving performance.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🔥" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🔥</div>
+            <div>Removing code or files.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🐛" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🐛</div>
+            <div>Fixing a bug.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🚑" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🚑</div>
+            <div>Critical hotfix.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="✨" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>✨</div>
+            <div>Introducing new features.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="📝" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>📝</div>
+            <div>Writing docs.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🚀" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🚀</div>
+            <div>Deploying stuff.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="💄" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>💄</div>
+            <div>Updating the UI and style files.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🎉" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🎉</div>
+            <div>Initial commit.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="✅" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>✅</div>
+            <div>Updating tests.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🔒" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🔒</div>
+            <div>Fixing security issues.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🍎" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🍎</div>
+            <div>Fixing something on macOS.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🐧" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🐧</div>
+            <div>Fixing something on Linux.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🏁" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🏁</div>
+            <div>Fixing something on Windows.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🤖" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🤖</div>
+            <div>Fixing something on Android.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🍏" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🍏</div>
+            <div>Fixing something on iOS.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🔖" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🔖</div>
+            <div>Releasing / Version tags.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🚨" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🚨</div>
+            <div>Removing linter warnings.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🚧" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🚧</div>
+            <div>Work in progress.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="💚" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>💚</div>
+            <div>Fixing CI Build.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="⬇️" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>⬇️</div>
+            <div>Downgrading dependencies.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="⬆️" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>⬆️</div>
+            <div>Upgrading dependencies.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="📌" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>📌</div>
+            <div>Pinning dependencies to specific versions.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="👷" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>👷</div>
+            <div>Adding CI build system.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="📈" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>📈</div>
+            <div>Adding analytics or tracking code.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="♻️" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>♻️</div>
+            <div>Refactoring code.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🐳" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🐳</div>
+            <div>Work about Docker.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="➕" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>➕</div>
+            <div>Adding a dependency.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="➖" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>➖</div>
+            <div>Removing a dependency.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🔧" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🔧</div>
+            <div>Changing configuration files.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🌐" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🌐</div>
+            <div>Internationalization and localization.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="✏️" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>✏️</div>
+            <div>Fixing typos.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="💩" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>💩</div>
+            <div>Writing bad code that needs to be improved.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="⏪" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>⏪</div>
+            <div>Reverting changes.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🔀" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🔀</div>
+            <div>Merging branches.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="📦" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>📦</div>
+            <div>Updating compiled files or packages.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="👽" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>👽</div>
+            <div>Updating code due to external API changes.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🚚" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🚚</div>
+            <div>Moving or renaming files.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="📄" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>📄</div>
+            <div>Adding or updating license.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="💥" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>💥</div>
+            <div>Introducing breaking changes.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🍱" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🍱</div>
+            <div>Adding or updating assets.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="👌" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>👌</div>
+            <div>Updating code due to code review changes.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="♿️" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>♿️</div>
+            <div>Improving accessibility.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="💡" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>💡</div>
+            <div>Documenting source code.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🍻" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🍻</div>
+            <div>Writing code drunkenly.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="💬" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>💬</div>
+            <div>Updating text and literals.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🗃" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🗃</div>
+            <div>Performing database related changes.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🔊" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🔊</div>
+            <div>Adding logs.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🔇" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🔇</div>
+            <div>Removing logs.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="👥" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>👥</div>
+            <div>Adding contributor(s).</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🚸" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🚸</div>
+            <div>Improving user experience / usability.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🏗" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🏗</div>
+            <div>Making architectural changes.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="📱" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>📱</div>
+            <div>Working on responsive design.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🤡" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🤡</div>
+            <div>Mocking things.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🥚" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🥚</div>
+            <div>Adding an easter egg.</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🙈" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🙈</div>
+            <div>Adding or updating a .gitignore file</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="📸" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>📸</div>
+            <div>Adding or updating snapshots</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="⚗" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>⚗</div>
+            <div>Experimenting new things</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🔍" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🔍</div>
+            <div>Improving SEO</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="☸️" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>☸️</div>
+            <div>Work about Kubernetes</div>
+        </div>
+
+        <div class="btn" data-clipboard-text="🏷️" style="cursor: pointer; padding: 5px; margin: 5px;">
+            <div>🏷️</div>
+            <div>Adding or updating types (Flow, TypeScript)</div>
+        </div>
+
+    </div>
+    <script crossorigin="anonymous" integrity="sha384-8CYhPwYlLELodlcQV713V9ZikA3DlCVaXFDpjHfP8Z36gpddf/Vrt47XmKDsCttu"
+        src="./clipboard.min.js"></script>
+    <script>
+        var clipboard = new ClipboardJS('.btn');
+        clipboard.on('success', function (e) {
+            document.getElementById('toast').style.display = 'block';
+            document.getElementById('toast').innerHTML = '<div>' + e.text + ' copied' + '</div>';
+            setTimeout(function () {
+                document.getElementById('toast').style.display = 'none';
+            }, 1500);
+        });
+    </script>
+
+</body>
+
+</html>
